@@ -45,4 +45,4 @@ def get_total_fuel(data):
             sum += val
             val = int(val/3)-2
 
-    print(sum)
+    print(get_total_fuel(data))
